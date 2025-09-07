@@ -1,0 +1,14 @@
+-- You can add more alts, just follow what the current format.
+-- Script is currently still in development.
+
+getgenv().system = {
+    Main = 123456789, -- Main / Controller
+    Instances = {
+        0, -- Alt 1
+        0  -- Alt 2
+    }
+}
+
+loadstring(game:HttpGet("clixcks on top"))()
+
+-- made by clixcks
