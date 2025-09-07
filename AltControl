@@ -1,1 +1,16 @@
+-- You can add more alts, just follow what the current format.
+-- Script is currently still in development.
 
+getgenv().Settings = {
+    Prefix = "."; -- Command Prefix
+    FPS = 25; -- Optional
+    Main = "MainAccount"; -- Main / Controller
+    Instances = {
+        ["Alt1"] = true,
+        ["Alt2"] = true,
+    };
+};
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/cryprol/AltControl/refs/heads/main/Main"))()
+
+-- made by clixcks
