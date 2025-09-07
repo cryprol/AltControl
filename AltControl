@@ -1,5 +1,9 @@
--- You can add more alts, just follow what the current format.
--- Script is currently still in development.
+--[[
+        Universal Alt Control | Last Updated 9/6/2025
+]]--
+
+-- You can add more alts, just follow the current format.
+-- Make sure you are in the Discord!
 
 getgenv().Settings = {
     Prefix = "."; -- Command Prefix
