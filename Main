@@ -1,13 +1,15 @@
 -- You can add more alts, just follow what the current format.
 -- Script is currently still in development.
 
-getgenv().system = {
-    Main = 123456789, -- Main / Controller
+getgenv().Settings = {
+    Prefix = "."; -- Command Prefix
+    FPS = 25; -- Optional
+    Main = "MainAccount"; -- Main / Controller
     Instances = {
-        0, -- Alt 1
-        0  -- Alt 2
-    }
-}
+        ["Alt1"] = true,
+        ["Alt2"] = true,
+    };
+};
 
 loadstring(game:HttpGet("clixcks on top"))()
 
