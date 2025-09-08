@@ -1,5 +1,5 @@
 --[[
-        Universal Alt Control | Last Updated 9/6/2025
+      Universal Alt Control | Last Updated 9/6/2025
 ]]--
 
 -- You can add more alts, just follow the current format.
@@ -7,12 +7,16 @@
 
 getgenv().Settings = {
     Prefix = "."; -- Command Prefix
-    FPS = 25; -- Optional
+    FPS = 60; -- Optional [ Alt(s) Only ]
     Main = "MainAccount"; -- Main / Controller
+
     Instances = {
         ["Alt1"] = true,
         ["Alt2"] = true,
     };
+
+    Whitescreen = false; -- Reduce GPU Usage
+    Anonymous = false; -- Hides Usernames
 };
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/cryprol/AltControl/refs/heads/main/Main"))()
