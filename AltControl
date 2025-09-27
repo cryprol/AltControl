@@ -5,7 +5,7 @@
 -- You can add more alts, just follow the current format.
 -- Make sure you are in the Discord!
 
-getgenv().Settings = {
+_G.Settings = {
     Prefix = "."; -- Command Prefix
     FPS = 60; -- Optional [ Alt(s) Only / Unless FPSLock ]
     FPSLock = false; -- True = Lock Main FPS
@@ -16,7 +16,6 @@ getgenv().Settings = {
         ["Alt2"] = true,
     };
 
-    Whitescreen = false; -- Reduce GPU Usage
     Anonymous = false; -- Hides Usernames
 };
 
