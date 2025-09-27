@@ -9,9 +9,9 @@ _G.Settings = {
     Prefix = "."; -- Command Prefix
     FPS = 60; -- Optional [ Alt(s) Only / Unless FPSLock ]
     FPSLock = false; -- True = Lock Main FPS
-    Main = "MainAccount"; -- Main / Controller
+    Main = "MainAccount"; -- Main / Controller [ Case Sensitive ]
 
-    Instances = {
+    Instances = { -- [ Case Sensitive ]
         ["Alt1"] = true,
         ["Alt2"] = true,
     };
